@@ -64,7 +64,7 @@ class TrumpTweets
 
       while attempt <= 3
         sentence = @markov.generate_n_sentences(1).strip
-        if tweet.size + 1 + sentence.size <= 140
+        if tweet.size + 1 + sentence.size <= 280
           tweet += " #{sentence}"
           attempt = 1
         else
