@@ -27,7 +27,7 @@ GEM
     multipart-post (2.0.0)
     naught (1.1.0)
     oauth (0.4.7)
-    rake (10.5.0)
+    rake (12.3.3)
     simple_oauth (0.3.1)
     thread_safe (0.3.5)
     twitter (5.16.0)
